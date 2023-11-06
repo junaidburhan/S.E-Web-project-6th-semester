@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: grid;
+    justify-items: center;
+
+}
+#type{
+    margin-bottom: 1em;
+    width: 98%;
+}
+
+.form-container {
+    background-color: #03A9F4;
+    border-radius: -1px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    padding: 20px;
+    width: 540px;
+    height: 400px;
+    display: grid;
+    text-align: center;
+}
+h2{
+    text-align: justify;
+    color: #FFF;
+    height: 0;
+}
+
+.btn-sub {
+    background: none;
+    width: 100%;
+    margin: 5px 0;
+    color: #FFF;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.btn-sub:hover{
+background-color: #333;
+border: none;
+color: #03A9F4;
+}
+.register{
+    background-color: #333;
+    color: #03A9F4;
+    border: none;
+    height: 3em;
+padding: 0px;
+}
+.input{
+    width: 95%;
+    margin: .2em;
+    border: none;
+    padding: .6em;
+}
+a{
+    all: unset;
+}
+.register-form{
+    height: 40em;
+    margin-top: 4em ;
+  
+}
+.register-page{
+    position: relative;
+    bottom: 2em;
+
+}
+.btn-reg{
+    height: 3em;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+}
+
+.msg{
+    width: 80%;
+    position: absolute;
+    color: #fff;
+    background: #27b073;
+    text-align: center;
+    margin: 0em auto;
+    padding: 1em 0;
+    text-transform: capitalize;
+    width: 70%;
+    z-index: 2;
+    opacity: 0;
+    left: 6em;
+    animation: ani 3s ease;
+}
+.btn-register{
+    background: none;
+    border: 2px solid #ccc;
+}
+.alert{
+    width: 80%;
+    position: absolute;
+    color: #fff;
+    background: #ac1233;
+    text-align: center;
+    margin: 0em auto;
+    padding: 1em 0;
+    text-transform: capitalize;
+    width: 70%;
+    z-index: 2;
+    opacity: 0;
+    left: 6em;
+    animation: ani 3s ease;
+}
+
+@keyframes ani {
+    10%{margin-top: 1em; opacity: 1;}
+    80%{margin-top: 1em; opacity: 1;}
+    100%{margin-top: 0em; opacity: 0;}
+    
+}
